@@ -1,0 +1,9 @@
+------------------------------ NOTES ON THIS GITHUB CI/CD ----------------------------------
+1) CI -> continues integration :==== It is responsible to have a few major part that as follow
+    I) Build -> here is it responsible to build the code and run necessary test cases and install necessary dependency
+    So basically a build will do the following steps which a developer would be doing in manual processing
+    git pull, go build, go test, docker build
+
+So this is what CI does and it' generally done by a few thing like Jenkins, GitHubActions where these tools detect some push and then it trigger a pipelines where all the continues process start and our application is build without any human intervention
+
+After the CI build is finished it generally gives us a (build artifact)
