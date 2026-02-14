@@ -7,3 +7,5 @@
 So this is what CI does and it' generally done by a few thing like Jenkins, GitHubActions where these tools detect some push and then it trigger a pipelines where all the continues process start and our application is build without any human intervention
 
 After the CI build is finished it generally gives us a (build artifact)
+
+======================================= CI WORKING FLOW ===================================
